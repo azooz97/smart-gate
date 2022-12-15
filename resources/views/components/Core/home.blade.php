@@ -1,9 +1,9 @@
-<x-layout>
+<x-Core.layout>
     <!-- screen loader -->
     {{--<x-ScreenLoader></x-ScreenLoader>--}}
 
     <!-- menu main -->
-    <x-MainMenu.MainMenu></x-MainMenu.MainMenu>
+    <x-MainMenu></x-MainMenu>
 
     <div class="backdrop"></div>
     <!-- Begin page content -->
@@ -13,7 +13,6 @@
 
         {{-- wallet amount --}}
         {{--<x-Wallet></x-Wallet>--}}
-
         <div class="main-container">
             <!-- page content start -->
             <x-IconSwiper></x-IconSwiper>
@@ -25,25 +24,25 @@
             <x-Actions></x-Actions>
 
             {{-- status --}}
-            <x-Status></x-Status>
+{{--            <x-Status></x-Status>--}}
 
             <!-- PWA add to home display -->
-            <x-PWA></x-PWA>
+{{--            <x-PWA></x-PWA>--}}
 
             <!-- Gift cards -->
-            <x-GiftCard></x-GiftCard>
+{{--            <x-GiftCard></x-GiftCard>--}}
 
             {{-- upcoming payments --}}
             <x-UpcomingPayments></x-UpcomingPayments>
 
             {{-- select menu type --}}
-            <x-SelectMenu></x-SelectMenu>
+{{--            <x-SelectMenu></x-SelectMenu>--}}
 
             {{-- Most exciting feature --}}
             <x-MostExciting></x-MostExciting>
 
             {{--About us--}}
-            <x-AboutUs></x-AboutUs>
+{{--            <x-AboutUs></x-AboutUs>--}}
         </div>
     </main>
 
@@ -52,5 +51,4 @@
 
     <!-- color settings style switcher -->
     <x-ColorPicker></x-ColorPicker>
-
-</x-layout>
+</x-Core.layout>

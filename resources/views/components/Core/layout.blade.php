@@ -38,16 +38,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="generator" content="">
-    <title>Finwallapp - Mobile HTML template</title>
+    <title>Smart Gate - Protect Your Child</title>
 
     <!-- manifest meta -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="manifest" href="manifest.json" />
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" href="img/favicon180.png" sizes="180x180">
-    <link rel="icon" href="img/favicon32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="img/favicon16.png" sizes="16x16" type="image/png">
+    <link rel="apple-touch-icon" href="img/fav180.png" sizes="180x180">
+    <link rel="icon" href="img/fav32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="img/fav16.png" sizes="16x16" type="image/png">
 
     <!-- Material icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -63,7 +63,7 @@
 </head>
 
 <body class="body-scroll d-flex flex-column h-100 menu-overlay" data-page="homepage">
-  
+
     {{$slot}}
 
     <!-- Required jquery and libraries -->
