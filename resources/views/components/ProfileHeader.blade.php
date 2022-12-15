@@ -2,7 +2,10 @@
     <div class="card overflow-hidden">
         <div class="card-body p-0 h-150">
             <div class="background">
-                <img src="img/image10.jpg" alt="" style="display: none;">
+                <img src="img/headerProfile.png" alt="" style="display: none;">
+{{--                <div class="container mt-3 mb-4 text-center">--}}
+{{--                    <h2 class="text-black">1,150 KWD</h2>--}}
+{{--                </div>--}}
             </div>
         </div>
     </div>

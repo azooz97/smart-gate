@@ -88,7 +88,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #052f3d;
   text-align: left;
   background-color: #fff;
 }
@@ -10275,7 +10275,7 @@ p:last-child {
   top: 0;
   width: 100%;
   z-index: 99;
-  background: rgba(54, 41, 183, 0.95);
+  background: #1b9dd4;
   border-radius: 0;
 }
 
@@ -10290,7 +10290,7 @@ p:last-child {
 }
 
 .header.active {
-  background: rgba(54, 41, 183, 0.95);
+  background: #1b9dd4;
 }
 
 .counter {
