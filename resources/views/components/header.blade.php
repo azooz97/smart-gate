@@ -8,8 +8,8 @@
 {{--      </div>--}}
 
       <div class="text-left col align-self-center">
-          <a class="navbar-brand" href="#">
-              <h5 class="mb-0">Smart Gate</h5>
+          <a class="navbar-brand">
+              <h5 class="mb-0">School Name</h5>
           </a>
       </div>
       <div class="ml-auto col-auto pl-0">
@@ -18,15 +18,17 @@
 {{--              <span class="material-icons">color_lens</span>--}}
 {{--          </button>--}}
 
-          <a href="notification.html" class="menu-btn btn btn-40 btn-link" >
-              <span class="material-icons">notifications_none</span>
-              <span class="counter"></span>
-          </a>
-          <a href="profile.html" class="avatar avatar-30 shadow-sm rounded-circle ml-2">
+{{--          <a href="notification.html" class="menu-btn btn btn-40 btn-link" >--}}
+{{--              <span class="material-icons">notifications_none</span>--}}
+{{--              <span class="counter"></span>--}}
+{{--          </a>--}}
+
+          <a class="avatar avatar-30 shadow-sm rounded-circle ml-2">
               <figure class="m-0 background">
                   <img src="img/user.png" alt="">
               </figure>
           </a>
+
       </div>
   </div>
 </header>

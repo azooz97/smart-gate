@@ -111,6 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #e43290;
 }
 
 abbr[title],
@@ -5267,6 +5268,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   padding: 0.75rem 1.25rem;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
+  /*box-shadow: #e43290;*/
 }
 
 .list-group-item:first-child {
@@ -10323,7 +10325,7 @@ p:last-child {
 }
 
 .main.has-footer {
-  padding-bottom: 85px;
+  padding-bottom: 10px;
 }
 
 /* 8. main container */

@@ -30,7 +30,7 @@
     <link href="css/style.css" rel="stylesheet" id="style">
 </head>
 
-<body class="body-scroll d-flex flex-column h-100 menu-overlay" data-page="profile">
+<body class="body-scroll d-flex flex-column h-100 menu-overlay" data-page="referfriend">
 <!-- screen loader -->
 <div class="container-fluid h-100 loader-display">
     <div class="row h-100">
@@ -54,139 +54,23 @@
 
 
 
-<!-- menu main -->
-<div class="main-menu">
-    <div class="row mb-4 no-gutters">
-        <div class="col-auto"><button class="btn btn-link btn-40 btn-close text-white"><span class="material-icons">chevron_left</span></button></div>
-        <div class="col-auto">
-            <div class="avatar avatar-40 rounded-circle position-relative">
-                <figure class="background">
-                    <img src="img/user1.png" alt="">
-                </figure>
-            </div>
-        </div>
-        <div class="col pl-3 text-left align-self-center">
-            <h6 class="mb-1">Errica Johnson</h6>
-            <p class="small text-default-secondary">London, UK</p>
-        </div>
-    </div>
-    <div class="menu-container">
-        <div class="row mb-4">
-            <div class="col">
-                <h4 class="mb-1 font-weight-normal">$ 1548.00</h4>
-                <p class="text-default-secondary">My Balance</p>
-            </div>
-            <div class="col-auto">
-                <button class="btn btn-default btn-40 rounded-circle" data-toggle="modal" data-target="#addmoney"><i class="material-icons">add</i></button>
-            </div>
-        </div>
-
-        <ul class="nav nav-pills flex-column ">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html">
-                    <div>
-                        <span class="material-icons icon">account_balance</span>
-                        Home
-                    </div>
-                    <span class="arrow material-icons">chevron_right</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="analytics.html">
-                    <div>
-                        <span class="material-icons icon">insert_chart</span>
-                        Analytics
-                    </div>
-                    <span class="arrow material-icons">chevron_right</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="refer_friends.html">
-                    <div>
-                        <span class="material-icons icon">perm_contact_calendar</span>
-                        Refer Friends
-                    </div>
-                    <span class="arrow material-icons">chevron_right</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="gift_cards.html">
-                    <div>
-                        <span class="material-icons icon">card_giftcard</span>
-                        Gift Cards
-                    </div>
-                    <span class="arrow material-icons">chevron_right</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="my_orders.html">
-                    <div>
-                        <span class="material-icons icon">shopping_bag</span>
-                        My Orders
-                    </div>
-                    <span class="arrow material-icons">chevron_right</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="setting.html">
-                    <div>
-                        <span class="material-icons icon">settings</span>
-                        Settings
-                    </div>
-                    <span class="arrow material-icons">chevron_right</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="pages.html">
-                    <div>
-                        <span class="material-icons icon">layers</span>
-                        Pages
-                    </div>
-                    <span class="arrow material-icons">chevron_right</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="controls.html">
-                    <div>
-                        <span class="material-icons icon">widgets</span>
-                        Controls
-                    </div>
-                    <span class="arrow material-icons">chevron_right</span>
-                </a>
-            </li>
-        </ul>
-        <div class="text-center">
-            <a href="login.html" class="btn btn-outline-danger text-white rounded my-3 mx-auto">Sign out</a>
-        </div>
-    </div>
-</div>
-<div class="backdrop"></div>
-
 
 <!-- Begin page content -->
-<main class="flex-shrink-0 main has-footer">
+<main class="flex-shrink-0 main">
     <!-- Fixed navbar -->
     <header class="header">
         <div class="row">
             <div class="col-auto px-0">
-                <button class="menu-btn btn btn-40 btn-link" type="button">
-                    <span class="material-icons">menu</span>
+                <button class="menu-btn btn btn-40 btn-link back-btn" type="button">
+                    <span class="material-icons">keyboard_arrow_left</span>
                 </button>
             </div>
             <div class="text-left col align-self-center">
                 <a class="navbar-brand" href="#">
-                    <h5 class="mb-0">Finwallapp</h5>
+                    <h5 class="mb-0">Referral Progream</h5>
                 </a>
             </div>
-            <div class="ml-auto col-auto pl-0">
-                <button type="button" class="btn btn-link btn-40 colorsettings">
-                    <span class="material-icons">color_lens</span>
-                </button>
-
-                <a href="notification.html" class="menu-btn btn btn-40 btn-link" >
-                    <span class="material-icons">notifications_none</span>
-                    <span class="counter"></span>
-                </a>
+            <div class="ml-auto col-auto">
                 <a href="profile.html" class="avatar avatar-30 shadow-sm rounded-circle ml-2">
                     <figure class="m-0 background">
                         <img src="img/user1.png" alt="">
@@ -197,405 +81,182 @@
     </header>
 
     <!-- page content start -->
-    <div class="container-fluid px-0">
-        <div class="card overflow-hidden">
-            <div class="card-body p-0 h-150">
-                <div class="background">
-                    <img src="img/image10.jpg" alt="" style="display: none;">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid top-70 text-center mb-4">
-        <div class="avatar avatar-140 rounded-circle mx-auto shadow">
-            <div class="background">
-                <img src="img/user.png" alt="">
-            </div>
-        </div>
-    </div>
-
     <div class="container mb-4 text-center text-white">
-        <h6 class="mb-1">Errica Johnson</h6>
-        <p>London, UK</p>
-        <p class="mb-1">erricajohnson@maxartkiller.com</p>
-        <p>+44 000 000 0000</p>
+        <div class="row">
+            <div class="col col-sm-8 col-md-6 col-lg-5 mx-auto">
+                <img src="img/refer.png" alt="" class="mw-100 mb-4">
+                <h5>Invite your contacts<br>or Friends and Earn Rewards</h5>
+            </div>
+        </div>
     </div>
-
     <div class="main-container">
         <div class="container mb-4">
-            <div class="row mb-4">
-                <div class="col-6">
-                    <button class="btn btn-outline-default px-2 btn-block rounded"><span class="material-icons mr-1">qr_code_scanner</span> Share QR</button>
-                </div>
-                <div class="col-6">
-                    <button class="btn btn-outline-default px-2 btn-block rounded"><span class="material-icons mr-1">receipt_long</span> Send Bill</button>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col">
-                                    <h6 class="mb-1">Your wallet limits: $ 1000.00 /month</h6>
-                                    <p class="text-secondary">Curreny monthly usage: <span class="text-success">$ 10.0</span></p>
-
-                                </div>
+            <div class="card border-0 mb-3">
+                <div class="card-body">
+                    <div class="row align-items-center">
+                        <div class="col-auto pr-0">
+                            <div class="avatar avatar-50 border-0 bg-danger-light rounded-circle text-danger">
+                                <i class="material-icons vm text-template">card_giftcard</i>
                             </div>
-                            <div class="progress h-5 mt-3">
-                                <div class="progress-bar bg-default" role="progressbar" style="width:35%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
+                        </div>
+                        <div class="col-auto align-self-center">
+                            <h6 class="mb-1">Refer and Earn Rewards</h6>
+                            <p class="small text-secondary">Share your referal link and start earning</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="container mb-4">
-            <div class="card">
-                <div class="card-header border-bottom">
-                    <h6 class="mb-0">Recent Transactions</h6>
-                </div>
-                <div class="card-body px-0 pt-0">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="row align-items-center">
-                                <div class="col-auto pr-0">
-                                    <div class="avatar avatar-40 rounded">
-                                        <div class="background">
-                                            <img src="img/user2.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col align-self-center pr-0">
-                                    <h6 class="font-weight-normal mb-1">Ms. Shivani Dilux</h6>
-                                    <p class="small text-secondary">15-1-2020, 8:00 am</p>
-                                </div>
-                                <div class="col-auto">
-                                    <h6 class="text-success">$154.0</h6>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="row align-items-center">
-                                <div class="col-auto pr-0">
-                                    <div class="avatar avatar-40 rounded">
-                                        <div class="background">
-                                            <img src="img/user4.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col align-self-center pr-0">
-                                    <h6 class="font-weight-normal mb-1">Mrs. Magon Strudio</h6>
-                                    <p class="small text-secondary">15-1-2020, 8:00 am</p>
-                                </div>
-                                <div class="col-auto">
-                                    <h6 class="text-success">$154.0</h6>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="row align-items-center">
-                                <div class="col-auto pr-0">
-                                    <div class="avatar avatar-40 rounded">
-                                        <div class="background">
-                                            <img src="img/user3.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col align-self-center pr-0">
-                                    <h6 class="font-weight-normal mb-1">Mr. Jack Strudio</h6>
-                                    <p class="small text-secondary">15-1-2020, 8:00 am</p>
-                                </div>
-                                <div class="col-auto">
-                                    <h6 class="text-danger">-$154.0</h6>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="row align-items-center">
-                                <div class="col-auto pr-0">
-                                    <div class="avatar avatar-40 rounded">
-                                        <div class="background">
-                                            <img src="img/user2.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col align-self-center pr-0">
-                                    <h6 class="font-weight-normal mb-1">Ms. Shivani Dilux</h6>
-                                    <p class="small text-secondary">15-1-2020, 8:00 am</p>
-                                </div>
-                                <div class="col-auto">
-                                    <h6 class="text-danger">-$154.0</h6>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="row align-items-center">
-                                <div class="col-auto pr-0">
-                                    <div class="avatar avatar-40 rounded">
-                                        <div class="background">
-                                            <img src="img/user4.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col align-self-center pr-0">
-                                    <h6 class="font-weight-normal mb-1">Mrs. Magon Strudio</h6>
-                                    <p class="small text-secondary">15-1-2020, 8:00 am</p>
-                                </div>
-                                <div class="col-auto">
-                                    <h6 class="text-success">$154.0</h6>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="row align-items-center">
-                                <div class="col-auto pr-0">
-                                    <div class="avatar avatar-40 rounded">
-                                        <div class="background">
-                                            <img src="img/user3.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col align-self-center pr-0">
-                                    <h6 class="font-weight-normal mb-1">Mr. Jack Strudio</h6>
-                                    <p class="small text-secondary">15-1-2020, 8:00 am</p>
-                                </div>
-                                <div class="col-auto">
-                                    <h6 class="text-success">$154.0</h6>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="row align-items-center">
-                                <div class="col-auto pr-0">
-                                    <div class="avatar avatar-40 rounded">
-                                        <div class="background">
-                                            <img src="img/user2.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col align-self-center pr-0">
-                                    <h6 class="font-weight-normal mb-1">Ms. Shivani Dilux</h6>
-                                    <p class="small text-secondary">15-1-2020, 8:00 am</p>
-                                </div>
-                                <div class="col-auto">
-                                    <h6 class="text-success">$154.0</h6>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+            <div class="alert alert-success d-none" id="successmessage">Refferal link copied</div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="refferal Link" value="maxartkiller.com/mobile" id="referallink">
+                <div class="input-group-append">
+                    <button class="btn btn-default rounded" type="button" id="coplink">Copy link</button>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="card">
-                <div class="card-header">
-                    <h6 class="mb-0">App Services</h6>
-                </div>
-                <div class="card-body px-0 pt-0">
-                    <div class="list-group list-group-flush border-top border-color">
-                        <a href="language.html" class="list-group-item list-group-item-action border-color">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <div class="avatar avatar-50 bg-default-light text-default rounded">
-                                        <span class="material-icons">language</span>
-                                    </div>
-                                </div>
-                                <div class="col align-self-center pl-0">
-                                    <h6 class="mb-1">Language</h6>
-                                    <p class="text-secondary">Choose preffered language</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="security_settings.html" class="list-group-item list-group-item-action border-color">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <div class="avatar avatar-50 bg-default-light text-default rounded">
-                                        <span class="material-icons">lock_open</span>
-                                    </div>
-                                </div>
-                                <div class="col align-self-center pl-0">
-                                    <h6 class="mb-1">Security Settings</h6>
-                                    <p class="text-secondary">App lock, Password</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="notification_settings.html" class="list-group-item list-group-item-action border-color">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <div class="avatar avatar-50 bg-default-light text-default rounded">
-                                        <span class="material-icons">notifications</span>
-                                    </div>
-                                </div>
-                                <div class="col align-self-center pl-0">
-                                    <h6 class="mb-1">Notification Settings</h6>
-                                    <p class="text-secondary">Customize notification receiving</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="my_cards.html" class="list-group-item list-group-item-action border-color">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <div class="avatar avatar-50 bg-default-light text-default rounded">
-                                        <span class="material-icons">credit_card</span>
-                                    </div>
-                                </div>
-                                <div class="col align-self-center pl-0">
-                                    <h6 class="mb-1">My Cards</h6>
-                                    <p class="text-secondary">Add, update, delete Credit Cards</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="my_address.html" class="list-group-item list-group-item-action border-color">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <div class="avatar avatar-50 bg-default-light text-default rounded">
-                                        <span class="material-icons">location_city</span>
-                                    </div>
-                                </div>
-                                <div class="col align-self-center pl-0">
-                                    <h6 class="mb-1">My Address</h6>
-                                    <p class="text-secondary">Add, update, delete address</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="login.html" class="list-group-item list-group-item-action border-color">
-                            <div class="row">
-                                <div class="col-auto">
-                                    <div class="avatar avatar-50 bg-danger-light text-danger rounded">
-                                        <span class="material-icons">power_settings_new</span>
-                                    </div>
-                                </div>
-                                <div class="col align-self-center pl-0">
-                                    <h6 class="mb-1">Logout</h6>
-                                    <p class="text-secondary">Logout from the application</p>
-                                </div>
-                            </div>
-                        </a>
+            <p class="text-center text-secondary">Share link to social</p>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <div class="avatar avatar-40 rounded mx-2">
+                        <div class="background">
+                            <img src="img/whatsapp.png" alt="">
+                        </div>
                     </div>
+                    <div class="avatar avatar-40 rounded mx-2">
+                        <div class="background">
+                            <img src="img/facebook.png" alt="">
+                        </div>
+                    </div>
+                    <div class="avatar avatar-40 rounded mx-2">
+                        <div class="background">
+                            <img src="img/instagram.png" alt="">
+                        </div>
+                    </div>
+                    <div class="avatar avatar-40 rounded mx-2">
+                        <div class="background">
+                            <img src="img/twitter.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container mb-4">
+            <h6 class="subtitle mb-3">Recently Invited friends</h6>
+            <div class="swiper-container swiper-users text-center mb-4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <div class="avatar avatar-60 rounded mb-1">
+                                    <div class="background"><img src="img/user1.png" alt=""></div>
+                                </div>
+                                <p class="text-secondary"><small>Errica</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <div class="avatar avatar-60 rounded mb-1">
+                                    <div class="background"><img src="img/user2.png" alt=""></div>
+                                </div>
+                                <p class="text-secondary"><small>Alisia</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <div class="avatar avatar-60 rounded mb-1">
+                                    <div class="background"><img src="img/user3.png" alt=""></div>
+                                </div>
+                                <p class="text-secondary"><small>Maxsmith</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <div class="avatar avatar-60 rounded mb-1">
+                                    <div class="background"><img src="img/user4.png" alt=""></div>
+                                </div>
+                                <p class="text-secondary"><small>Jenelia</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <div class="avatar avatar-60 rounded mb-1">
+                                    <div class="background"><img src="img/user1.png" alt=""></div>
+                                </div>
+                                <p class="text-secondary"><small>Errica</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <div class="avatar avatar-60 rounded mb-1">
+                                    <div class="background"><img src="img/user1.png" alt=""></div>
+                                </div>
+                                <p class="text-secondary"><small>Errica</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <div class="avatar avatar-60 rounded mb-1">
+                                    <div class="background"><img src="img/user2.png" alt=""></div>
+                                </div>
+                                <p class="text-secondary"><small>Alisia</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <div class="avatar avatar-60 rounded mb-1">
+                                    <div class="background"><img src="img/user3.png" alt=""></div>
+                                </div>
+                                <p class="text-secondary"><small>Maxsmith</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <div class="avatar avatar-60 rounded mb-1">
+                                    <div class="background"><img src="img/user4.png" alt=""></div>
+                                </div>
+                                <p class="text-secondary"><small>Jenelia</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="card-body p-2">
+                                <div class="avatar avatar-60 rounded mb-1">
+                                    <div class="background"><img src="img/user1.png" alt=""></div>
+                                </div>
+                                <p class="text-secondary"><small>Errica</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Email addres">
+                <div class="input-group-append">
+                    <button class="btn btn-default rounded" type="button" id="button-addon2">Invite</button>
                 </div>
             </div>
         </div>
     </div>
 </main>
-
-<!-- footer-->
-<div class="footer">
-    <div class="row no-gutters justify-content-center">
-        <div class="col-auto">
-            <a href="index.html" class="">
-                <i class="material-icons">home</i>
-                <p>Home</p>
-            </a>
-        </div>
-        <div class="col-auto">
-            <a href="analytics.html" class="">
-                <i class="material-icons">insert_chart_outline</i>
-                <p>Analytics</p>
-            </a>
-        </div>
-        <div class="col-auto">
-            <a href="wallet.html" class="">
-                <i class="material-icons">account_balance_wallet</i>
-                <p>Wallet</p>
-            </a>
-        </div>
-        <div class="col-auto">
-            <a href="shop.html" class="">
-                <i class="material-icons">shopping_bag</i>
-                <p>Shop</p>
-            </a>
-        </div>
-        <div class="col-auto">
-            <a href="profile.html" class="active">
-                <i class="material-icons">account_circle</i>
-                <p>Profile</p>
-            </a>
-        </div>
-    </div>
-</div>
-
-
-<!-- color settings style switcher -->
-<div class="color-picker">
-    <div class="row">
-        <div class="col text-left">
-            <div class="selectoption">
-                <input type="checkbox" id="darklayout" name="darkmode">
-                <label for="darklayout">Dark</label>
-            </div>
-            <div class="selectoption mb-0">
-                <input type="checkbox" id="rtllayout" name="layoutrtl">
-                <label for="rtllayout">RTL</label>
-            </div>
-        </div>
-        <div class="col-auto">
-            <button class="btn btn-link text-secondary btn-round colorsettings2"><span class="material-icons">close</span></button>
-        </div>
-    </div>
-
-    <hr class="mt-2">
-    <div class="colorselect">
-        <input type="radio" id="templatecolor1" name="sidebarcolorselect">
-        <label for="templatecolor1" class="bg-dark-blue" data-title="dark-blue"></label>
-    </div>
-    <div class="colorselect">
-        <input type="radio" id="templatecolor2" name="sidebarcolorselect">
-        <label for="templatecolor2" class="bg-dark-purple" data-title="dark-purple"></label>
-    </div>
-    <div class="colorselect">
-        <input type="radio" id="templatecolor4" name="sidebarcolorselect">
-        <label for="templatecolor4" class="bg-dark-gray" data-title="dark-gray"></label>
-    </div>
-    <div class="colorselect">
-        <input type="radio" id="templatecolor6" name="sidebarcolorselect">
-        <label for="templatecolor6" class="bg-dark-brown" data-title="dark-brown"></label>
-    </div>
-    <div class="colorselect">
-        <input type="radio" id="templatecolor3" name="sidebarcolorselect">
-        <label for="templatecolor3" class="bg-maroon" data-title="maroon"></label>
-    </div>
-    <div class="colorselect">
-        <input type="radio" id="templatecolor5" name="sidebarcolorselect">
-        <label for="templatecolor5" class="bg-dark-pink" data-title="dark-pink"></label>
-    </div>
-    <div class="colorselect">
-        <input type="radio" id="templatecolor8" name="sidebarcolorselect">
-        <label for="templatecolor8" class="bg-red" data-title="red"></label>
-    </div>
-    <div class="colorselect">
-        <input type="radio" id="templatecolor13" name="sidebarcolorselect">
-        <label for="templatecolor13" class="bg-amber" data-title="amber"></label>
-    </div>
-    <div class="colorselect">
-        <input type="radio" id="templatecolor7" name="sidebarcolorselect">
-        <label for="templatecolor7" class="bg-dark-green" data-title="dark-green"></label>
-    </div>
-    <div class="colorselect">
-        <input type="radio" id="templatecolor11" name="sidebarcolorselect">
-        <label for="templatecolor11" class="bg-teal" data-title="teal"></label>
-    </div>
-    <div class="colorselect">
-        <input type="radio" id="templatecolor12" name="sidebarcolorselect">
-        <label for="templatecolor12" class="bg-skyblue" data-title="skyblue"></label>
-    </div>
-    <div class="colorselect">
-        <input type="radio" id="templatecolor10" name="sidebarcolorselect">
-        <label for="templatecolor10" class="bg-blue" data-title="blue"></label>
-    </div>
-    <div class="colorselect">
-        <input type="radio" id="templatecolor9" name="sidebarcolorselect">
-        <label for="templatecolor9" class="bg-purple" data-title="purple"></label>
-    </div>
-    <div class="colorselect">
-        <input type="radio" id="templatecolor14" name="sidebarcolorselect">
-        <label for="templatecolor14" class="bg-gray" data-title="gray"></label>
-    </div>
-
-</div>
-
-
 
 
 <!-- Required jquery and libraries -->
@@ -616,6 +277,7 @@
 
 <!-- page level custom script -->
 <script src="js/app.js"></script>
+
 
 </body>
 

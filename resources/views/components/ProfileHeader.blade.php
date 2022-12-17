@@ -3,9 +3,9 @@
         <div class="card-body p-0 h-150">
             <div class="background">
                 <img src="img/headerProfile.png" alt="" style="display: none;">
-{{--                <div class="container mt-3 mb-4 text-center">--}}
-{{--                    <h2 class="text-black">1,150 KWD</h2>--}}
-{{--                </div>--}}
+                {{--                <div class="container mt-3 mb-4 text-center">--}}
+                {{--                    <h2 class="text-black">1,150 KWD</h2>--}}
+                {{--                </div>--}}
             </div>
         </div>
     </div>
@@ -19,9 +19,3 @@
     </div>
 </div>
 
-<div class="container mb-4 text-center text-white">
-    <h6 class="mb-1">Rana Mallah</h6>
-    <p>Salmiya, Kuwait</p>
-    <p class="mb-1">rana@au.edu</p>
-    <p>+965 50012345</p>
-</div>
