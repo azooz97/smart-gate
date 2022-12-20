@@ -24,3 +24,11 @@ Route::get('/profile', function () {
 Route::get('/dump', function () {
     return view('dump');
 });
+
+Route::get('/parent', function () {
+    return view('components.Core.parent');
+});
+
+Route::get('/recharge', function () {
+    return view('components.Core.rechargeWallet');
+});

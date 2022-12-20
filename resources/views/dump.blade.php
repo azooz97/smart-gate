@@ -30,7 +30,7 @@
     <link href="css/style.css" rel="stylesheet" id="style">
 </head>
 
-<body class="body-scroll d-flex flex-column h-100 menu-overlay" data-page="referfriend">
+<body class="body-scroll d-flex flex-column h-100 menu-overlay" data-page="sendmoney">
 <!-- screen loader -->
 <div class="container-fluid h-100 loader-display">
     <div class="row h-100">
@@ -67,7 +67,7 @@
             </div>
             <div class="text-left col align-self-center">
                 <a class="navbar-brand" href="#">
-                    <h5 class="mb-0">Referral Progream</h5>
+                    <h5 class="mb-0">Send Money</h5>
                 </a>
             </div>
             <div class="ml-auto col-auto">
@@ -80,71 +80,35 @@
         </div>
     </header>
 
-    <!-- page content start -->
-    <div class="container mb-4 text-center text-white">
-        <div class="row">
-            <div class="col col-sm-8 col-md-6 col-lg-5 mx-auto">
-                <img src="img/refer.png" alt="" class="mw-100 mb-4">
-                <h5>Invite your contacts<br>or Friends and Earn Rewards</h5>
-            </div>
-        </div>
-    </div>
+{{--    <div class="container mb-4 text-center">--}}
+{{--        <div class="row mb-4 justify-content-center">--}}
+{{--            <div class="col-auto">--}}
+{{--                <div class="icon icon-40 bg-default-light text-default mb-2 rounded-circle"><span class="material-icons">account_circle</span> </div>--}}
+{{--                <p class="small text-white">Contact</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-auto">--}}
+{{--                <div class="icon icon-40 bg-default-light text-default mb-2 rounded-circle"><span class="material-icons">qr_code_scanner</span> </div>--}}
+{{--                <p class="small text-white">QR Code</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-auto">--}}
+{{--                <div class="icon icon-40 bg-default-light text-default mb-2 rounded-circle"><span class="material-icons">account_balance</span> </div>--}}
+{{--                <p class="small text-white">Bank</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-auto">--}}
+{{--                <div class="icon icon-40 bg-default-light text-default mb-2 rounded-circle"><span class="material-icons">account_balance_wallet</span> </div>--}}
+{{--                <p class="small text-white">Wallet</p>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
     <div class="main-container">
         <div class="container mb-4">
-            <div class="card border-0 mb-3">
-                <div class="card-body">
-                    <div class="row align-items-center">
-                        <div class="col-auto pr-0">
-                            <div class="avatar avatar-50 border-0 bg-danger-light rounded-circle text-danger">
-                                <i class="material-icons vm text-template">card_giftcard</i>
-                            </div>
-                        </div>
-                        <div class="col-auto align-self-center">
-                            <h6 class="mb-1">Refer and Earn Rewards</h6>
-                            <p class="small text-secondary">Share your referal link and start earning</p>
-                        </div>
-                    </div>
-                </div>
+            <p class="text-center text-secondary mb-1">Enter Amount to send</p>
+            <div class="form-group mb-1">
+                <input type="text" class="form-control large-gift-card" value="100.00" placeholder="00.00">
             </div>
-        </div>
-        <div class="container mb-4">
-            <div class="alert alert-success d-none" id="successmessage">Refferal link copied</div>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="refferal Link" value="maxartkiller.com/mobile" id="referallink">
-                <div class="input-group-append">
-                    <button class="btn btn-default rounded" type="button" id="coplink">Copy link</button>
-                </div>
-            </div>
-            <p class="text-center text-secondary">Share link to social</p>
-            <div class="row justify-content-center">
-                <div class="col-auto">
-                    <div class="avatar avatar-40 rounded mx-2">
-                        <div class="background">
-                            <img src="img/whatsapp.png" alt="">
-                        </div>
-                    </div>
-                    <div class="avatar avatar-40 rounded mx-2">
-                        <div class="background">
-                            <img src="img/facebook.png" alt="">
-                        </div>
-                    </div>
-                    <div class="avatar avatar-40 rounded mx-2">
-                        <div class="background">
-                            <img src="img/instagram.png" alt="">
-                        </div>
-                    </div>
-                    <div class="avatar avatar-40 rounded mx-2">
-                        <div class="background">
-                            <img src="img/twitter.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
+{{--            <p class="text-center text-secondary mb-4">Available: $ 1,050.00 </p>--}}
 
-        </div>
-        <div class="container mb-4">
-            <h6 class="subtitle mb-3">Recently Invited friends</h6>
-            <div class="swiper-container swiper-users text-center mb-4">
+            <div class="swiper-container swiper-users text-center mb-3">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="card">
@@ -248,12 +212,168 @@
                     </div>
                 </div>
             </div>
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Email addres">
-                <div class="input-group-append">
-                    <button class="btn btn-default rounded" type="button" id="button-addon2">Invite</button>
+{{--            <div class="form-group">--}}
+{{--                <input type="text" class="form-control" placeholder="Email addres or User id">--}}
+{{--            </div>--}}
+{{--            <div class="form-group">--}}
+{{--                <textarea class="form-control" placeholder="Your Message"></textarea>--}}
+{{--            </div>--}}
+        </div>
+
+        <div class="container mb-1">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-auto">
+                            <div class="custom-control custom-switch">
+                                <input type="radio" name="paynow" class="custom-control-input" id="pay1" checked="">
+                                <label class="custom-control-label" for="pay1"></label>
+                            </div>
+                        </div>
+                        <div class="col pl-0">
+                            <h6 class="subtitle mb-0">Pay from wallet</h6>
+                        </div>
+                        <div class="col-auto pl-0">
+                            <p class="text-secondary text-center"><a href="addfund.html">Add</a></p>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+
+        <div class="container mb-1">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-auto">
+                            <div class="custom-control custom-switch">
+                                <input type="radio" name="paynow" class="custom-control-input" id="pay2" checked="">
+                                <label class="custom-control-label" for="pay2"></label>
+                            </div>
+                        </div>
+                        <div class="col pl-0">
+                            <h6 class="subtitle mb-0">Pay via card</h6>
+                        </div>
+                        <div class="col-auto pl-0">
+                            <p class="text-secondary text-center"><a href="addcard.html">Add </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="swiper-container swipercards">
+                        <div class="swiper-wrapper pb-4">
+                            <div class="swiper-slide ">
+                                <div class="card border-0 bg-default text-white">
+                                    <div class="card-header">
+                                        <div class="row">
+                                            <div class="col-auto">
+                                                <i class="material-icons vm text-template">credit_card</i>
+                                            </div>
+                                            <div class="col pl-0">
+                                                <h6 class="mb-1">Visa</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="mb-0 mt-3">4444 5264 2541 26651</h5>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="mb-0">26/21</p>
+                                                <p class="small ">Expiry date</p>
+                                            </div>
+                                            <div class="col-auto align-self-center text-right">
+                                                <p class="mb-0">Agnish Carvan</p>
+                                                <p class="small">Card Holder</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide ">
+                                <div class="card border-0 bg-warning text-white">
+                                    <div class="card-header">
+                                        <div class="row">
+                                            <div class="col-auto">
+                                                <i class="material-icons vm text-template">credit_card</i>
+                                            </div>
+                                            <div class="col pl-0">
+                                                <h6 class="mb-1">Maestro</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="mb-0 mt-3">4444 5264 2541 26651</h5>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="mb-0">26/21</p>
+                                                <p class="small ">Expiry date</p>
+                                            </div>
+                                            <div class="col-auto align-self-center text-right">
+                                                <p class="mb-0">Agnish Carvan</p>
+                                                <p class="small">Card Holder</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card border-0 bg-danger text-white">
+                                    <div class="card-header">
+                                        <div class="row">
+                                            <div class="col-auto">
+                                                <i class="material-icons vm text-template">credit_card</i>
+                                            </div>
+                                            <div class="col pl-0">
+                                                <h6 class="mb-1">Payme</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="mb-0 mt-3">4444 5264 2541 26651</h5>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="mb-0">26/21</p>
+                                                <p class="small ">Expiry date</p>
+                                            </div>
+                                            <div class="col-auto align-self-center text-right">
+                                                <p class="mb-0">Agnish Carvan</p>
+                                                <p class="small">Card Holder</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+{{--        <div class="container mb-4">--}}
+{{--            <div class="card">--}}
+{{--                <div class="card-header">--}}
+{{--                    <div class="row">--}}
+{{--                        <div class="col-auto">--}}
+{{--                            <div class="custom-control custom-switch">--}}
+{{--                                <input type="radio" name="paynow" class="custom-control-input" id="pay3" checked="">--}}
+{{--                                <label class="custom-control-label" for="pay3"></label>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="col pl-0">--}}
+{{--                            <h6 class="subtitle mb-0">Pay via NetBannking</h6>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+        <div class="container text-center">
+            <a href="thank_you.html" class="btn btn-default mb-2 mx-auto rounded">Pay Now</a>
         </div>
     </div>
 </main>
@@ -277,7 +397,6 @@
 
 <!-- page level custom script -->
 <script src="js/app.js"></script>
-
 
 </body>
 
