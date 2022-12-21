@@ -14,21 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('components.Core.home');
+    return view('components.Core.home',['data'=> 'landing']);
 });
 
 Route::get('/profile', function () {
-    return view('components.Core.profile');
+    return view('components.Core.profile',['data'=> 'homepage']);
 });
 
 Route::get('/dump', function () {
-    return view('dump');
+    return view('dump',['data'=> 'sendmoney']);
 });
 
 Route::get('/parent', function () {
-    return view('components.Core.parent');
+    return view('components.Core.parent',['data'=> 'homepage']);
 });
 
 Route::get('/recharge', function () {
-    return view('components.Core.rechargeWallet');
+    return view('components.Core.rechargeWallet',['data'=> 'sendmoney']);
+});
+
+Route::get('/canteen', function () {
+    return view('components.Core.canteen',['data'=> 'products']);
 });

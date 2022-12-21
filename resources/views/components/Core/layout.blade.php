@@ -28,8 +28,8 @@
         </div>
     </body>
 </html> --}}
-
-<!doctype html>
+@props(['data'])
+    <!doctype html>
 <html lang="en" class="h-100">
 
 <head>
@@ -42,7 +42,7 @@
 
     <!-- manifest meta -->
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="manifest" href="manifest.json" />
+    <link rel="manifest" href="manifest.json"/>
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="img/fav180.png" sizes="180x180">
@@ -62,30 +62,32 @@
     <link href="css/style.css" rel="stylesheet" id="style">
 </head>
 
-<body class="body-scroll d-flex flex-column h-100 menu-overlay" data-page="homepage">
+<body class="body-scroll d-flex flex-column h-100 menu-overlay" data-page="{{$data}}">
+<!-- screen loader -->
+<x-ScreenLoader></x-ScreenLoader>
 
-    {{$slot}}
+{{$slot}}
 
-    <!-- Required jquery and libraries -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- Required jquery and libraries -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- cookie js -->
-    <script src="js/jquery.cookie.js"></script>
+<!-- cookie js -->
+<script src="js/jquery.cookie.js"></script>
 
-    <!-- Swiper slider  js-->
-    <script src="vendor/swiper/js/swiper.min.js"></script>
+<!-- Swiper slider  js-->
+<script src="vendor/swiper/js/swiper.min.js"></script>
 
-    <!-- Customized jquery file  -->
-    <script src="js/main.js"></script>
-    <script src="js/color-scheme-demo.js"></script>
+<!-- Customized jquery file  -->
+<script src="js/main.js"></script>
+<script src="js/color-scheme-demo.js"></script>
 
-    <!-- PWA app service registration and works -->
-    <script src="js/pwa-services.js"></script>
+<!-- PWA app service registration and works -->
+<script src="js/pwa-services.js"></script>
 
-    <!-- page level custom script -->
-    <script src="js/app.js"></script>
+<!-- page level custom script -->
+<script src="js/app.js"></script>
 </body>
 
 </html>

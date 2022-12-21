@@ -1,54 +1,72 @@
-<x-Core.layout>
-    <!-- screen loader -->
-    {{--<x-ScreenLoader></x-ScreenLoader>--}}
+<x-Core.layout :data="$data">
 
-    <!-- menu main -->
-    <x-MainMenu></x-MainMenu>
-
-    <div class="backdrop"></div>
     <!-- Begin page content -->
-    <main class="flex-shrink-0 main has-footer">
-        <!-- Fixed navbar -->
-        <x-header></x-header>
+    <main class="flex-shrink-0 main has-footer pt-2">
 
-        {{-- wallet amount --}}
-        {{--<x-Wallet></x-Wallet>--}}
-        <div class="main-container">
-            <!-- page content start -->
-            <x-IconSwiper></x-IconSwiper>
+        <div class="container h-100">
+            <!-- Swiper intro -->
+            <div class="swiper-container introduction text-white">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide overflow-hidden text-center">
+                        <div class="row no-gutters h-100">
+                            <div class="col align-self-center px-3">
+                                <img src="img/landingImage2.png" alt="" class="mw-100 my-5">
+                                <div class="row">
+                                    <div class="container mb-5">
+                                        <h4>Protect Your Child</h4>
+                                        <p>Stay up to date to your child school life using Smart Gate</p>
+                                    </div>
+                                </div>
+                            </div>
 
-            <!-- Swiper people -->
-            <x-SwiperPeople></x-SwiperPeople>
-
-            {{-- Actions --}}
-            <x-Actions></x-Actions>
-
-            {{-- status --}}
-{{--            <x-Status></x-Status>--}}
-
-            <!-- PWA add to home display -->
-{{--            <x-PWA></x-PWA>--}}
-
-            <!-- Gift cards -->
-{{--            <x-GiftCard></x-GiftCard>--}}
-
-            {{-- upcoming payments --}}
-            <x-UpcomingPayments></x-UpcomingPayments>
-
-            {{-- select menu type --}}
-{{--            <x-SelectMenu></x-SelectMenu>--}}
-
-            {{-- Most exciting feature --}}
-            <x-MostExciting></x-MostExciting>
-
-            {{--About us--}}
-{{--            <x-AboutUs></x-AboutUs>--}}
+                        </div>
+                    </div>
+{{--                    <div class="swiper-slide overflow-hidden text-center">--}}
+{{--                        <div class="row no-gutters h-100">--}}
+{{--                            <div class="col align-self-center px-3">--}}
+{{--                                <img src="img/landingImage2.png" alt="" class="mw-100 my-5">--}}
+{{--                                <div class="row">--}}
+{{--                                    <div class="container mb-5">--}}
+{{--                                        <h4>Best Wallet app</h4>--}}
+{{--                                        <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit. Sndisse conv--}}
+{{--                                            allis.</p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="swiper-slide overflow-hidden text-center">--}}
+{{--                        <div class="row no-gutters h-100">--}}
+{{--                            <div class="col align-self-center px-3">--}}
+{{--                                <img src="img/install-app.png" alt="" class="mw-100 my-5">--}}
+{{--                                <div class="row">--}}
+{{--                                    <div class="container mb-5">--}}
+{{--                                        <h4>World Class Design</h4>--}}
+{{--                                        <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit. Sndisse conv--}}
+{{--                                            allis.</p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+                </div>
+                <!-- Add Pagination -->
+{{--                <div class="swiper-pagination" style="padding-bottom: 6rem !important;"></div>--}}
+            </div>
+            <!-- Swiper intro ends -->
         </div>
     </main>
 
     <!-- footer-->
-    <x-BottomBar></x-BottomBar>
+    <div class="footer no-bg-shadow py-5">
+        <div class="row justify-content-center">
+            <div class="col">
+                <a href="/parent" class="btn btn-default rounded btn-block">Enter</a>
+            </div>
+            {{--        <div class="col">--}}
+            {{--            <a href="signup.html" class="btn btn-outline-default rounded btn-block">Register</a>--}}
+            {{--        </div>--}}
+        </div>
+    </div>
 
-    <!-- color settings style switcher -->
-    <x-ColorPicker></x-ColorPicker>
 </x-Core.layout>
